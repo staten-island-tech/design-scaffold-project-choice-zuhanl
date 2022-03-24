@@ -1,8 +1,7 @@
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.header-image {
+  background-image: url("../img/Bru.png");
+  background-size: cover;
+  height: 100%;
+  clip-path: polygon(59% 0, 100% 0, 100% 100%, 0 100%);
+  position: relative;
 }
