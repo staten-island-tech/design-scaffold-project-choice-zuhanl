@@ -4,17 +4,41 @@ html {
   padding: 0;
   margin: 0;
 }
-body {
-  background-image: url(./img/ok2.jpg);
-  background-position: center;
+.box {
+  position: absolute;
+  width: 191.2rem;
+  height: 7.5rem;
+  left: 0px;
+  top: 0px;
+  background: #fc0606;
 }
-.header-title {
+.text {
+  position: absolute;
+  width: 90rem;
+  height: 47.8px;
+  left: 0px;
+  top: 0px;
+  font-size: 6rem;
+  line-height: 7rem;
   text-align: center;
-  color: white;
-  font-size: 17rem;
+  color: #ffff00;
 }
-.header-desc {
-  text-align: center;
-  color: white;
-  font-size: 12.5rem;
+.line {
+  position: absolute;
+  width: 95.6rem;
+  height: 0px;
+  left: 542px;
+  top: 0px;
+  border: 1px solid #000000;
+  transform: rotate(90deg);
+}
+.home {
+  position: absolute;
+  width: 90rem;
+  height: 47.8px;
+  left: 106.5rem;
+  top: 0px;
+  font-size: 6rem;
+  color: #ffff00;
+  word-spacing: 20px;
 }
