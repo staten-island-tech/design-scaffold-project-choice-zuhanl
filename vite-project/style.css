@@ -4,10 +4,17 @@ html {
   padding: 0;
   margin: 0;
 }
-.header-image {
-  background-image: url(/vite-project/img/ok2.jpg);
-  background-size: cover;
-  height: 100%;
-  clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%);
-  position: relative;
+body {
+  background-image: url(./img/ok2.jpg);
+  background-position: center;
+}
+.header-title {
+  text-align: center;
+  color: white;
+  font-size: 17rem;
+}
+.header-desc {
+  text-align: center;
+  color: white;
+  font-size: 12.5rem;
 }
