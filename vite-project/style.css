@@ -25,7 +25,7 @@ html {
 }
 .line {
   position: absolute;
-  width: 95.6rem;
+  width: 75rem;
   height: 0px;
   left: 542px;
   top: 0px;
@@ -36,7 +36,7 @@ html {
   position: absolute;
   width: 90rem;
   height: 47.8px;
-  left: 106.5rem;
+  left: 101rem;
   top: 0px;
   font-size: 6rem;
   color: #ffff00;
