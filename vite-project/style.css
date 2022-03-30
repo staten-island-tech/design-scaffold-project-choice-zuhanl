@@ -8,10 +8,7 @@ html {
   background-color: red;
   height: 10rem;
 }
-.text {
-}
 body {
   background-image: url(img/ok.jpg);
   background-size: cover;
-  background-position: ;
 }
