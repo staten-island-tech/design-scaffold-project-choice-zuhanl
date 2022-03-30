@@ -5,40 +5,13 @@ html {
   margin: 0;
 }
 .box {
-  position: absolute;
-  width: 191.2rem;
-  height: 7.5rem;
-  left: 0px;
-  top: 0px;
-  background: #fc0606;
+  background-color: red;
+  height: 10rem;
 }
 .text {
-  position: absolute;
-  width: 90rem;
-  height: 47.8px;
-  left: 0px;
-  top: 0px;
-  font-size: 6rem;
-  line-height: 7rem;
-  text-align: center;
-  color: #ffff00;
 }
-.line {
-  position: absolute;
-  width: 75rem;
-  height: 0px;
-  left: 542px;
-  top: 0px;
-  border: 1px solid #000000;
-  transform: rotate(90deg);
-}
-.home {
-  position: absolute;
-  width: 90rem;
-  height: 47.8px;
-  left: 101rem;
-  top: 0px;
-  font-size: 6rem;
-  color: #ffff00;
-  word-spacing: 20px;
+body {
+  background-image: url(img/ok.jpg);
+  background-size: cover;
+  background-position: ;
 }
