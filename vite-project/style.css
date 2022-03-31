@@ -23,8 +23,12 @@ body,
   left: 28rem;
 }
 .home {
-  font-size: var(--h1);
-  color: var(--gold);
   position: absolute;
-  right: 5.5rem;
+  left: 75rem;
+  top: 0.5rem;
+}
+.btn {
+  font-size: 7rem;
+  color: var(--gold);
+  background-color: var(--red);
 }
