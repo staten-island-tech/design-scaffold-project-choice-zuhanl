@@ -1,14 +1,30 @@
-html {
+html,
+body,
+* {
   box-sizing: border-box;
   font-size: 62.5%;
   padding: 0;
   margin: 0;
 }
-.box {
-  background-color: red;
-  height: 10rem;
+:root {
+  --red: #ff0000;
+  --h1: 8rem;
+  --h2: 10rem;
+  --gold: #ffd700;
 }
-body {
-  background-image: url(img/ok.jpg);
-  background-size: cover;
+.box {
+  background-color: var(--red);
+  height: var(--h2);
+}
+.text {
+  font-size: var(--h1);
+  color: var(--gold);
+  position: absolute;
+  left: 28rem;
+}
+.home {
+  font-size: var(--h1);
+  color: var(--gold);
+  position: absolute;
+  right: 5.5rem;
 }
