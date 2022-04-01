@@ -31,4 +31,5 @@ body,
   font-size: 7rem;
   color: var(--gold);
   background-color: var(--red);
+  border-radius: 16px;
 }
