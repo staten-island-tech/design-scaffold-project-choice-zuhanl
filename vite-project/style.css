@@ -15,8 +15,8 @@ body,
 .pic {
   background-image: url(img/ok.jpg);
   background-position: right;
-  width: 191.3rem;
-  height: 85.9rem;
+  width: 192rem;
+  height: 86.9rem;
 }
 .box {
   background-color: var(--red);
