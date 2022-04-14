@@ -6,13 +6,13 @@ body,
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  scroll-behavior: smooth;
 }
 :root {
   --red: #ff0000;
   --h1: 8rem;
   --h2: 10rem;
   --gold: #ffd700;
+  --Text: center;
 }
 .pic {
   background-image: url(img/ok.jpg);
@@ -40,4 +40,8 @@ body,
   color: var(--gold);
   background-color: var(--red);
   border-radius: 16px;
+}
+.text2 {
+  font-size: var(--h1);
+  text-align: var(--Text);
 }
