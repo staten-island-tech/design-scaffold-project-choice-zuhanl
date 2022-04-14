@@ -7,6 +7,9 @@ body,
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: var(--red);
+}
 :root {
   --red: #ff0000;
   --h1: 8rem;
@@ -44,4 +47,5 @@ body,
 .text2 {
   font-size: var(--h1);
   text-align: var(--Text);
+  color: var(--gold);
 }
