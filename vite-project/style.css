@@ -28,7 +28,7 @@ body {
   background-color: var(--red);
   height: var(--h2);
 }
-.text {
+h1 {
   font-size: var(--h1);
   color: var(--gold);
   position: var(--pos);
@@ -45,7 +45,7 @@ body {
   background-color: var(--red);
   border-radius: 16px;
 }
-.text2 {
+h2 {
   font-size: var(--h1);
   text-align: var(--Text);
   color: var(--gold);
