@@ -45,8 +45,7 @@ h1 {
   background-color: var(--red);
   border-radius: 16px;
 }
-h2,
-h3 {
+h2 {
   font-size: var(--h1);
   text-align: var(--Text);
   color: var(--gold);
@@ -69,6 +68,16 @@ h3 {
 .boxs {
   border: 3px solid pink;
   height: 42.3rem;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: black 0.5rem 0.5rem 0.5rem;
+  background-size: cover;
+  margin: 8px;
+}
+.boxz {
+  border: 3px solid pink;
+  height: 86rem;
   width: 50%;
   background-repeat: no-repeat;
   background-position: center;
@@ -105,4 +114,7 @@ h3 {
 }
 .box-10 {
   background-image: url(img/h.jpg);
+}
+.box-11 {
+  background-image: url(img/u.jpg);
 }
