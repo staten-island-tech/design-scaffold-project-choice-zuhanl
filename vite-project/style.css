@@ -16,6 +16,7 @@ body {
   --gold: #ffd700;
   --Text: center;
   --pos: absolute;
+  --flex: flex;
 }
 .pic {
   background-image: url(img/ok.jpg);
@@ -52,7 +53,7 @@ h3 {
 }
 .flex {
   font-size: 3rem;
-  display: flex;
+  display: var(--flex);
   justify-content: space-between;
 }
 .box {
@@ -60,7 +61,7 @@ h3 {
   height: 35rem;
   width: 32%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: var(--Text);
   box-shadow: black 0.5rem 0.5rem 0.5rem;
   background-size: cover;
   margin: 8px;
@@ -92,4 +93,16 @@ h3 {
 }
 .box-6 {
   background-image: url(img/ok9.jpg);
+}
+.box-7 {
+  background-image: url(img/t.jpg);
+}
+.box-8 {
+  background-image: url(img/l.jpg);
+}
+.box-9 {
+  background-image: url(img/k.jpg);
+}
+.box-10 {
+  background-image: url(img/h.jpg);
 }
