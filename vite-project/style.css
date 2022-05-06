@@ -78,7 +78,7 @@ h2 {
 .boxz {
   border: 3px solid pink;
   height: 86rem;
-  width: 50%;
+  width: 63%;
   background-repeat: no-repeat;
   background-position: center;
   box-shadow: black 0.5rem 0.5rem 0.5rem;
@@ -91,7 +91,7 @@ h2 {
   margin: 8px;
 }
 .read {
-  font-size: 5rem;
+  font-size: 4.8rem;
   color: var(--gold);
 }
 .box-1 {
