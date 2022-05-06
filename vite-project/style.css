@@ -85,6 +85,15 @@ h2 {
   background-size: cover;
   margin: 8px;
 }
+.boxl {
+  height: 86rem;
+  width: 50%;
+  margin: 8px;
+}
+.read {
+  font-size: 5rem;
+  color: var(--gold);
+}
 .box-1 {
   background-image: url(img/ok3.jpg);
 }
