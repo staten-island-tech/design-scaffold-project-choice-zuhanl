@@ -36,7 +36,7 @@ h1 {
 }
 .home {
   position: var(--pos);
-  left: 75rem;
+  left: 70rem;
   top: 0.5rem;
 }
 .btn {
@@ -44,6 +44,7 @@ h1 {
   color: var(--gold);
   background-color: var(--red);
   border-radius: 16px;
+  margin: 5px;
 }
 h2 {
   font-size: var(--h1);
