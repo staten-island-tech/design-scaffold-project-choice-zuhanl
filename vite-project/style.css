@@ -54,6 +54,8 @@ h2 {
   font-size: 3rem;
   display: var(--flex);
   justify-content: space-between;
+  font-size: 5rem;
+  color: var(--gold);
 }
 .box {
   border: 3px solid pink;
