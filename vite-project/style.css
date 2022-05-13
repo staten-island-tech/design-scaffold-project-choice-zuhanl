@@ -8,9 +8,12 @@ body,
 }
 body {
   background-color: var(--red);
+  color: var(--gold);
 }
 :root {
   --red: #ff0000;
+  --white: #ffffff;
+  --blue: #87cefa;
   --h1: 8rem;
   --h2: 10rem;
   --gold: #ffd700;
@@ -25,37 +28,30 @@ body {
   height: 86.9rem;
 }
 .boxx {
-  background-color: var(--red);
   height: var(--h2);
 }
 h1 {
   font-size: var(--h1);
-  color: var(--gold);
-  position: var(--pos);
-  left: 8rem;
 }
 .home {
-  position: var(--pos);
-  left: 44rem;
-  top: 0.5rem;
+  position: fixed;
+  left: 38rem;
+  top: 0.1rem;
 }
 .btn {
   font-size: 7rem;
   color: var(--gold);
   background-color: var(--red);
   border-radius: 16px;
-  margin: 5px;
+  margin: 10px;
 }
 h2 {
   font-size: var(--h1);
-  color: var(--gold);
-  text-align: center;
 }
 .flex {
   display: var(--flex);
   justify-content: space-between;
   font-size: 4rem;
-  color: var(--gold);
 }
 .box {
   border: 3px solid pink;
@@ -101,8 +97,8 @@ h2 {
   background-color: var(--red);
 }
 .dark {
-  color: var();
-  background-color: var();
+  color: var(--white);
+  background-color: var(--blue);
 }
 .box:hover {
   outline: 0.5rem solid pink;
