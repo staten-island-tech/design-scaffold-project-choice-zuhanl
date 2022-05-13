@@ -32,11 +32,11 @@ h1 {
   font-size: var(--h1);
   color: var(--gold);
   position: var(--pos);
-  left: 28rem;
+  left: 8rem;
 }
 .home {
   position: var(--pos);
-  left: 70rem;
+  left: 44rem;
   top: 0.5rem;
 }
 .btn {
@@ -48,8 +48,8 @@ h1 {
 }
 h2 {
   font-size: var(--h1);
-  text-align: var(--Text);
   color: var(--gold);
+  text-align: center;
 }
 .flex {
   display: var(--flex);
@@ -95,6 +95,14 @@ h2 {
 .read {
   font-size: 5rem;
   color: var(--gold);
+}
+.light {
+  color: var(--gold);
+  background-color: var(--red);
+}
+.dark {
+  color: var();
+  background-color: var();
 }
 .box:hover {
   outline: 0.5rem solid pink;
