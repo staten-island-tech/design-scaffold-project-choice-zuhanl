@@ -97,7 +97,7 @@ h2 {
   background-color: var(--red);
 }
 .dark {
-  color: var(--white);
+  color: var(--gold);
   background-color: var(--blue);
 }
 .box:hover {
