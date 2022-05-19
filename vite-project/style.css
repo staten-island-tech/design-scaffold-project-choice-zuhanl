@@ -100,36 +100,12 @@ h2 {
   color: var(--gold);
   background-color: var(--blue);
 }
-.box:hover {
-  outline: 0.5rem solid pink;
-}
-.box-1,
-.box-2,
-.box-3,
-.box-4,
-.box-5,
-.box-6 {
-  transition: 0.5s ease;
-}
-.box-1:hover,
-.box-2:hover,
-.box-3:hover,
-.box-4:hover,
-.box-5:hover,
-.box-6:hover {
-  transform: scale(0.85, 0.85);
-  transition: 0.5s ease;
-}
-.box-7,
-.box-8,
-.box-9,
-.box-10 {
+.box,
+.boxs {
   transition: 1s ease;
 }
-.box-7:hover,
-.box-8:hover,
-.box-9:hover,
-.box-10:hover {
+.box:hover,
+.boxs:hover {
   border-radius: 50%;
   transition: 1s ease;
 }
@@ -165,7 +141,4 @@ h2 {
 }
 .box-11 {
   background-image: url(img/n.jpg);
-}
-.test {
-  height: 100vh;
 }
