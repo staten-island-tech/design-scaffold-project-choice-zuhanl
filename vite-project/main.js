@@ -2,13 +2,13 @@ import './style.css';
 import {gsap} from "gsap";
 import {ScrollTrigger} from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
-const tl = gsap.timeline({scrollTrigger:".Food",delay: "0.2"});
+const tl = gsap.timeline({scrollTrigger:".Food",delay: "0.3"});
+const Bru = gsap.timeline({scrollTrigger:".att",delay: "0.3"});
+const cheese = gsap.timeline({scrollTrigger:".region",delay: "0.3"})
 
-tl.from("h2", {opacity: 0, duration: 0.2, ease: "ease-out"});
-tl.from(".Food", {opacity: 0, duration: 0.2, ease: "ease-out"});
-tl.from(".att", {opacity: 0, duration: 0.2, ease: "ease-out"});
-
-
+tl.from(".Food", {opacity: 0, duration: 0.3, ease: "ease-out"});
+Bru.from(".att", {opacity: 0, duration: 0.3, ease: "ease-out"});
+cheese.from(".region", {opacity:0, duration: 0.3, ease: "ease-out"});
 
 
 const DOMSelectors = {
