@@ -8,20 +8,19 @@
   </head>
   
   <body>
-    <section class="boxx">
+    <section id="Hom" class="boxx">
       <h1>CHINA</h1>
       <div class="home">
         <input type="button" value="THEME" class="btn" id="btn69"> 
-        <input type="button" value="HOME" class="btn" id="btn1">
-        <input type="button" value="FOOD" class="btn" id="btn2">
-        <input type="button" value="ATTRACTION" class="btn" id="btn3">
-        <input type="button" value="REGION" class="btn" id="btn4">
+        <input type="button" onclick="document.getElementById('Hom').scrollIntoView();"  value="HOME" class="btn" id="btn1">
+        <input type="button" onclick="document.getElementById('Fod').scrollIntoView();" value="FOOD" class="btn" id="btn2">
+        <input type="button" onclick="document.getElementById('At').scrollIntoView();"  value="ATTRACTION" class="btn" id="btn3">
+        <input type="button" onclick="document.getElementById('Reg').scrollIntoView();"  value="REGION" class="btn" id="btn4">
       </div>
     </section>
     <div class="pic"></div>
       
- 
-    <section class="Food">
+    <section id="Fod" class="Food">
       <h2>FOOD</h2>
       <div class="flex stuff">
         <div class="box box-1">HOT POT</div>
@@ -35,7 +34,7 @@
       </div>
     </section>
   
-    <section class="att">
+    <section id="At" class="att">
       <h2>ATTRACTION</h2>
       <div class="flex stuff">
         <div class="boxs box-7">TERRACOTTA ARMY</div>
@@ -47,7 +46,7 @@
       </div>
     </section>
   
-    <section class="region">
+    <section id="Reg" class="region">
       <h2>REGION</h2>
       <div class="flex stpff">
         <div class="boxz box-11">GEOGRAPHY</div>

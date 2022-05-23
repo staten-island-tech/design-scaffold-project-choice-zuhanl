@@ -16,6 +16,10 @@ const DOMSelectors = {
     foodtheme: document.getElementById("btn2"),
     attrtheme: document.getElementById("btn3"),
     regiontheme: document.getElementById("btn4"),
+    Fod: document.getElementById("Fod"),
+    Hom: document.getElementById("Hom"),
+    At: document.getElementById("At"),
+    Reg: document.getElementById("Reg"),
 };
   
 DOMSelectors.buttontheme.addEventListener("click", function () {
