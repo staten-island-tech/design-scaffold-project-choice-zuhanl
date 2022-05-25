@@ -27,7 +27,7 @@ body {
 .pic {
   background-image: url(img/ok.jpg);
   background-position: right;
-  width: 190.3rem;
+  width: 189.4rem;
   height: 86.9rem;
 }
 .boxx {
@@ -109,6 +109,46 @@ h2 {
   border-radius: 50%;
   transition: 1s ease;
 }
+@media (max-width: 110rem) {
+  h1 {
+    color: white;
+  }
+}
+@media (max-width: 68.75rem) {
+  h1 {
+    color: lightgreen;
+  }
+}
+@media (max-width: 31.25rem) {
+  h1 {
+    color: purple;
+  }
+  .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .box,
+  .boxs,
+  .boxz,
+  .boxl {
+    width: 40rem;
+  }
+  .home {
+    position: fixed;
+    left: 28rem;
+    top: 0.8rem;
+  }
+  .btn {
+    font-size: 1.3rem;
+    color: var(--gold);
+    background-color: var(--red);
+    border-radius: 16px;
+  }
+  .pic {
+    background-size: contain;
+  }
+}
+
 .box-1 {
   background-image: url(img/ok3.jpg);
 }

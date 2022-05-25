@@ -2,9 +2,9 @@ import './style.css';
 import {gsap} from "gsap";
 import {ScrollTrigger} from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
-const tl = gsap.timeline({scrollTrigger:".box-4",delay: "0.3"});
-const Bru = gsap.timeline({scrollTrigger:".box-9",delay: "0.3"});
-const cheese = gsap.timeline({scrollTrigger:".n",delay: "0.3"})
+const tl = gsap.timeline({scrollTrigger:".Food",delay: "0.3"});
+const Bru = gsap.timeline({scrollTrigger:".att",delay: "0.3"});
+const cheese = gsap.timeline({scrollTrigger:".region",delay: "0.3"})
 
 tl.from(".Food", {opacity: 0, duration: 0.3, ease: "ease-out"});
 Bru.from(".att", {opacity: 0, duration: 0.3, ease: "ease-out"});
