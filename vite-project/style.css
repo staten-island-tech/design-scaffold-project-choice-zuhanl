@@ -119,7 +119,7 @@ h2 {
     color: lightgreen;
   }
 }
-@media (max-width: 31.25rem) {
+@media (max-width: 38rem) {
   h1 {
     color: purple;
   }
